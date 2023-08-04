@@ -91,7 +91,7 @@ with tab1:
     st.write("Esse acúmulo de importância na terceira prova gerou uma reprovação maciça entre os alunos que cursavam a disciplina.")
     st.write("Os índices de reprovação tornaram necessárias a adoção de medidas para tentar reverter o quadro. A prova sub, então, foi declarada aberta e teoricamente facilitada, em relação à P3, por exemplo.")
     st.write("Este material se propõe a analisar brevemente tais impactos e a eficiência das medidas propostas para mitigar os estragos ocasionados.")
-    st.caption("Coloque no 'wide mode', clicando nos três pontinhos no canto superior direito e indo em 'settings'")
+    st.caption("Sugestão: coloque no 'wide mode', clicando nos três pontinhos no canto superior direito e indo em 'settings'")
     with st.expander("Panorama"):
         criterioM1 = df['M1'] >= 5
         criterioMSub = df['MSub'] >= 5
