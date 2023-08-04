@@ -2,10 +2,7 @@ pandas
 numpy
 seaborn
 matplotlib
+streamlit
 plotly
 Pillow
 prettytable
-
-
-
-
