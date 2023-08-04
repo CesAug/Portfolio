@@ -9,11 +9,11 @@ from prettytable import PrettyTable
 
 
 #df = pd.read_csv(r"C:\Users\abril\OneDrive\Documentos\Turing\Portfólio\Streamlit\valores.csv")
-df = pd.read_csv(r"C:\Users\abril\OneDrive\Documentos\Turing\Portfólio\Streamlit\valores2.csv")
+df = pd.read_csv("https://github.com/CesAug/Portfolio/blob/main/Streamlit/valores2.csv")
 
 col1, col2 = st.columns([0.08, 0.85])
 with col1:
-    st.image(Image.open(r"C:\Users\abril\OneDrive\Documentos\Turing\Portfólio\Streamlit\Traçado laranja #f1863d.png"))
+    st.image(Image.open("https://github.com/CesAug/Portfolio/blob/main/Streamlit/Tra%C3%A7ado%20laranja%20%23f1863d.png"))
 with col2:
     st.title("Análise das turmas de Cálculo III - 2022 (lembranças de bons tempos)")
 
@@ -303,13 +303,13 @@ with tab3:
     number = st.number_input("Digite a senha")
 
     if number == 2022:
-        st.image(Image.open(r"C:\Users\abril\OneDrive\Documentos\Turing\Portfólio\Streamlit\OsCulpados.png"))
+        st.image(Image.open("https://github.com/CesAug/Portfolio/blob/main/Streamlit/OsCulpados.png"))
         number = 0
     else:
         st.subheader("Senha incorreta")
 
 with tab4:
-    dt = pd.read_csv(r"C:\Users\abril\OneDrive\Documentos\Turing\Portfólio\Streamlit\comparacao.csv")
+    dt = pd.read_csv("https://github.com/CesAug/Portfolio/blob/main/Streamlit/comparacao.csv")
 
     st.header("Cálculo III - turma 2023")
     col1, col2 = st.columns(2)
