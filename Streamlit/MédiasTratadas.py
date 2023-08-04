@@ -303,7 +303,7 @@ with tab3:
     number = st.number_input("Digite a senha")
 
     if number == 2022:
-        st.image(Image.open("https://github.com/CesAug/Portfolio/blob/main/Streamlit/OsCulpados.png"))
+        st.image(Image.open("Streamlit/OsCulpados.png"))
         number = 0
     else:
         st.subheader("Senha incorreta")
