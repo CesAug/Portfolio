@@ -1,8 +1,2 @@
-pandas
-numpy
-seaborn
-matplotlib
-streamlit
-plotly
-Pillow
-prettytable
+freeglut3-dev
+libgtk2.0-dev
