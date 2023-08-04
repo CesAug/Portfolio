@@ -90,7 +90,7 @@ with tab1:
     st.write("A turma de 2022 de cálculo III passou por algumas adversidades ao longo do semestre. Das 3 provas propostas, uma foi cancelada e outra teve seu peso bastante reduzido, sendo, praticamente, toda a nota da disciplina concentrada na terceira prova.")
     st.write("Esse acúmulo de importância na terceira prova gerou uma reprovação maciça entre os alunos que cursavam a disciplina.")
     st.write("Os índices de reprovação tornaram necessárias a adoção de medidas para tentar reverter o quadro. A prova sub, então, foi declarada aberta e teoricamente facilitada, em relação à P3, por exemplo.")
-    st.write("Este streamlit se propõe a analisar brevemente tais impactos e a eficiência das medidas propostas para mitigar os estragos ocasionados.")
+    st.write("Este material se propõe a analisar brevemente tais impactos e a eficiência das medidas propostas para mitigar os estragos ocasionados.")
     with st.expander("Panorama"):
         criterioM1 = df['M1'] >= 5
         criterioMSub = df['MSub'] >= 5
@@ -312,6 +312,10 @@ with tab4:
     dt = pd.read_csv("Streamlit/comparacao.csv")
 
     st.header("Cálculo III - turma 2023")
+    st.write("A fim de se ter uma visão mais clara dos impactos registrados, aqui está uma comparação com as turmas do ano de 2023.")
+    st.write("Infelizmente, a comparação não pode ser perfeitamente realizada em razão de pequenas diferenças entre os oferecimentos, como o número de provas, que em 23 foram apenas duas, e a ausência de informações mais detalhadas a serem divulgadas, como as notas das provas de recuperação e as médias.")
+    st.write("Ainda assim, os resultados podem ser visualizados abaixo:")
+    st.divider()
     col1, col2 = st.columns(2)
 
     with col2:
