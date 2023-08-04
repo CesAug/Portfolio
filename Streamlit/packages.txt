@@ -1,0 +1,6 @@
+prettytable==3.8.0
+seaborn
+pandas
+numpy
+matplotlib
+plotly
