@@ -91,6 +91,7 @@ with tab1:
     st.write("Esse acúmulo de importância na terceira prova gerou uma reprovação maciça entre os alunos que cursavam a disciplina.")
     st.write("Os índices de reprovação tornaram necessárias a adoção de medidas para tentar reverter o quadro. A prova sub, então, foi declarada aberta e teoricamente facilitada, em relação à P3, por exemplo.")
     st.write("Este material se propõe a analisar brevemente tais impactos e a eficiência das medidas propostas para mitigar os estragos ocasionados.")
+    st.caption("Coloque no 'wide mode', clicando nos três pontinhos no canto superior direito e indo em 'settings'")
     with st.expander("Panorama"):
         criterioM1 = df['M1'] >= 5
         criterioMSub = df['MSub'] >= 5
@@ -313,7 +314,8 @@ with tab4:
 
     st.header("Cálculo III - turma 2023")
     st.write("A fim de se ter uma visão mais clara dos impactos registrados, aqui está uma comparação com as turmas do ano de 2023.")
-    st.write("Infelizmente, a comparação não pode ser perfeitamente realizada em razão de pequenas diferenças entre os oferecimentos, como o número de provas, que em 23 foram apenas duas, e a ausência de informações mais detalhadas a serem divulgadas, como as notas das provas de recuperação e as médias.")
+    st.write("Infelizmente, a comparação não pode ser perfeitamente realizada em razão de pequenas diferenças entre os oferecimentos, como o número de provas, que em 23 foram apenas duas (P1 e P2), e a ausência de informações mais detalhadas a serem divulgadas, como as notas das provas de recuperação e as médias.")
+    st.write("Optou-se por mostrar apenas a P2 para comparação, em razão de ser a prova cujo contéudo mais se aproxima do conteúdo cobrado nas provas de 2022")
     st.write("Ainda assim, os resultados podem ser visualizados abaixo:")
     st.divider()
     col1, col2 = st.columns(2)
